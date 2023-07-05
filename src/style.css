@@ -106,10 +106,18 @@ nav {
   justify-content: space-between;
 }
 #about {
-  background: url("./../img/about-bg.jpg") no-repeat center center/cover;
+  /* background: url("./../img/about-bg.jpg") no-repeat center center/cover; */
+  background: linear-gradient(#f0f5f8,white);
+}
+#about para-desc{
+  color: #000000 !important;
 }
 #services {
   background: linear-gradient(rgb(255, 255, 255), rgb(241, 247, 255));
+}
+#about img{
+  background-color: rgb(180, 194, 193);
+  padding: 1rem;
 }
 
 .section_heading {
@@ -369,7 +377,9 @@ nav {
   padding: 3px 6px;
   border-radius: 5px;
 }
-
+.border-1{
+  border-radius: 25px 0 25px 0;
+}
 /* responsive */
 .toggler {
   display: none;
