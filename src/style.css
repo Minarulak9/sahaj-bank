@@ -432,7 +432,7 @@ nav {
   left: 0;
   background-color: #0000008a;
   z-index: 10000;
-  display: none;
+  display: none;  
 }
 #overlay.active,
 #overlay2.active {
@@ -495,8 +495,21 @@ nav {
   overflow: hidden;
   z-index: 200000;
 }
+#contact_btn:hover{
+  cursor: pointer;
+color: white !important;
+}
+#footer .text-big{
+  font-size: 1.5rem;
+  color: white !important;
+}
 #popup_contact.active {
   transform: translate(-50%, -50%) scale(1);
+}
+@media (max-width: 992px) {
+  #slogan{
+    font-size: 1.8rem;
+  }
 }
 @media (max-width: 767px) {
   .nav-content {
@@ -545,8 +558,8 @@ nav {
     background-color: white !important;
   }
   #slogan {
-    font-size: 1.8rem !important;
-    margin-top: 3rem !important;
+    font-size: 1.6rem !important;
+    margin-top: 100px !important;
   }
   header::before {
     content: "";
