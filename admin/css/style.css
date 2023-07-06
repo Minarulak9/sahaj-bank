@@ -1,0 +1,115 @@
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#icons .icon{
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+    box-shadow: 5px 5px 20px -15px;
+}
+#icons .icon .img{
+
+    text-align: center;
+}
+#icons .icon img{
+    width: 70%;
+}
+#icons .text a{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+#icons .text{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#icons .edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: rgb(218, 218, 218);
+}
+#icons .add_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon .add{
+    font-size: 3rem;
+    color: rgb(180, 180, 180);
+}
+#icons .icon .order{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 20px; */
+    background-color: rgb(124, 255, 238);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#banners{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#banners .banner{
+    flex:  0 0 49%;
+    min-width: 300px;
+    /* max-width: 700px; */
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+    box-shadow: 5px 5px 20px -15px;
+}
+#banners .banner .order{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 20px; */
+    background-color: rgb(124, 255, 238);
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#banners .banner .img{
+    width: 100%;
+}
+#banners .banner img{
+    width: 100%;
+
+}
+#banners .add_more .add{
+    font-size: 5rem !important;
+    color: rgb(179, 179, 179);
+}
+#banners .add_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banners .banner .edit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
